@@ -1,0 +1,46 @@
+labTest : Validation Results
+=========================================
+
+err = 4, warn = 7, info = 2
+IG Publisher Version: 2.0.26
+Generated Wed Nov 12 09:10:33 UTC 2025. FHIR version 4.0.1 for smart.who.int.ig-empty#0.1.0 (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 18 / 0 / 0
+ /work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 1 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-LabPatient : 1 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-ZimGender : 2 / 2 / 2
+</table>
+== n/a ==
+ERROR: StructureDefinition-LabPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 617, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-examples.html#/html/body/div/div/div/p/span/a at Line 276, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 888, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-testing.html#/html/body/div/div/div/p/span/a at Line 283, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.html#/html/body/div/div/div/p/span/a at Line 2368, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 265, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2937, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2380, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2732, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/p/span/a at Line 260, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/p/span/a at Line 229, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/p/span/a at Line 335, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/p/span/a at Line 312, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/p/span/a at Line 310, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/p/span/a at Line 301, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 237, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 282, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 185, column 119: The link 'license.html' for "License" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: A definition could not be found for Canonical URL 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide'
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-LabPatient.json ==
+WARNING: Example Patient Profile.Patient.gender: Binding http://smart.who.int/ig-empty/ValueSet/ZimGender could not be expanded
+ERROR: StructureDefinition/LabPatient: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+INFORMATION: StructureDefinition/LabPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig-empty/StructureDefinition/LabPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+ERROR: ValueSet/ZimGender: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+WARNING: ValueSet/ZimGender: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://www.hl7.org/fhir/administrative-gender'
+INFORMATION: ValueSet/ZimGender: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+WARNING: ValueSet/ZimGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet.where(id = 'ZimGender'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://www.hl7.org/fhir/administrative-gender' could not be found, so the value set cannot be expanded

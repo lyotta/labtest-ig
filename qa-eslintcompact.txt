@@ -1,0 +1,37 @@
+labTest
+=========================================
+
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 157, Warning - A definition could not be found for Canonical URL 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1438, Error - Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 12651, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))' (INVARIANT)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 12651, Warning - Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 0, col 0, Warning - Binding http://smart.who.int/ig-empty/ValueSet/ZimGender could not be expanded (BUSINESSRULE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 1, col 14049, Error - Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 1, col 22431, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1193, Error - Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1557, Warning - No definition could be found for URL value 'https://www.hl7.org/fhir/administrative-gender' (INVALID)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1686, Info - The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1689, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 0, col 0, Error - Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://www.hl7.org/fhir/administrative-gender' could not be found, so the value set cannot be expanded (EXCEPTION)
+
+err = 4, warn = 7, info = 2
+IG Publisher Version: 2.0.26
