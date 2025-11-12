@@ -5,17 +5,18 @@ Description: "Example of a profile of Patient"
 
 * name.given 1..1
 
-*name.given ^short = "Patient's first name"
+* name.given ^short = "Patient's first name"
 
 * name.family 1..1
 
 * name.given ^short = "Patient's family name"
 
-*birthDate 0..1
+* birthDate 0..1
 
-gender 1..1
-gender from ZimGenderVS
-ValueSet: ZimGender
+* gender 1..1
+* gender from ZimGenderVS
+
+ValueSet: ZimGenderVS
 
 Id: ZimGender
 
